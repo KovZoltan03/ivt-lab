@@ -53,6 +53,10 @@ public class TorpedoStore {
     return success;
   }
 
+  public void makeEmpty(){
+    this.torpedoCount = 0;
+  }
+
   public boolean isEmpty(){
     return this.torpedoCount <= 0;
   }
